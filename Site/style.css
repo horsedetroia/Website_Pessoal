@@ -3,12 +3,11 @@ body {
     margin: 0;
 }
 
-h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-h3 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.central {
+    display: flex;
+    background-color: rgba(108, 108, 153, 0.322);
+    margin: 250px 400px 250px 400px;
+    border-radius: 50px;
 }
 
 .icone-principal {
@@ -29,4 +28,9 @@ h3 {
 .nav-redes-sociais img{
     border-radius: 100%;
     width: 35px;
+}
+
+.usuario {
+    margin: 10px 50px 10px 90px;
+    font-size: 70px;
 }
