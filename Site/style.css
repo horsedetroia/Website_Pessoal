@@ -1,20 +1,20 @@
 body {
-    background-color: rgb(65, 80, 112);
+    background-image: url(Arquivos/background.jpg);
     margin: 0;
 }
 
 .central {
     display: flex;
-    background-color: rgba(108, 108, 153, 0.322);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.450), rgba(0, 0, 0, 0.200));
     margin: 250px 400px 250px 400px;
     border-radius: 50px;
 }
 
-.icone-principal {
+.icone-principal { /*mexe com a div*/
     margin: 0 0 0 80px;
 }
 
-.icone-principal img {
+.icone-principal img { /*mexe com a imagem da div*/
     width: 390px;
     height: 430px;
 }
