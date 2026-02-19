@@ -1,2 +1,4 @@
-# Blog De Horse de Troia
-Este blog busca divulgar as redes sociais de Sarah Vieira (Horse de Troia), além de tornar as informações mais relevantes centralizadas e compreensíveis.
+# Website Pessoal De Horse de Troia
+Website com o objetivo de centralizar informações como redes sociais e biografia.
+
+Produzido em 2026 unicamente por Horse de Troia, utilizando HTML e CSS. O site apresenta redes sociais, biografia, design responsivo e estilizado.
