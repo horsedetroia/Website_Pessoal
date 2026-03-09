@@ -1,0 +1,82 @@
+.logo-lain img { /*mexe com a imagem da div*/
+    width: 380px;
+    max-width: 100%;
+}
+
+.nav-redes-sociais {
+    display: flex;
+    gap: 10px;
+    margin-top: 7px;
+
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+}
+
+.nav-redes-sociais img{
+    border-radius: 100%;
+    width: 35px;
+}
+
+#tiktok {
+    background-color: rgba(0, 0, 0, 0.37);
+    padding: 0 10px 0 10px;
+    border-radius: 20%;
+}
+
+#discord {
+    background-color: rgba(41, 77, 155, 0.5);
+    padding: 0 10px 0 10px;
+    border-radius: 20%;
+}
+
+#youtube1 {
+    background-color: rgba(155, 41, 41, 0.5);
+    padding: 0 10px 0 10px;
+    border-radius: 20%;
+}
+
+#youtube2 {
+    background-color: rgba(155, 41, 41, 0.5);
+    padding: 0 10px 0 10px;
+    border-radius: 20%;
+}
+
+#instagram {
+    background-color: rgba(196, 48, 105, 0.5);
+    padding: 0 10px 0 10px;
+    border-radius: 20%;
+}
+
+
+.usuario {
+    font-size: 65px;
+    color: white;
+    margin: 10px 0;
+}
+
+#botao-sobre-jogos, #botao-sobre-computador {
+    background-color: rgba(227, 229, 253, 0.5);
+    border-radius: 5px;
+    padding: 0 75px 0 75px;
+}
+
+@media (max-width: 768px) {
+    .usuario {
+        font-size: 42px;
+        margin: 20px 0;
+    }
+
+    .nav-redes-sociais {
+        margin: 20px 0 0 0;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #botao-sobre-jogos, #botao-sobre-computador {
+    background-color: rgba(227, 229, 253, 0.5);
+    border-radius: 5px;
+    padding: 0 40px 0 40px;
+}
+}
