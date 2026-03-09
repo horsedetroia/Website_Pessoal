@@ -83,10 +83,23 @@ body {
     border-radius: 20%;
 }
 
+.direita {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+}
+
 .usuario {
-    margin: 10px 50px 10px 60px;
     font-size: 65px;
     color: white;
+    margin: 10px 0;
+}
+
+#botao-sobre-jogos, #botao-sobre-computador {
+    background-color: rgba(227, 229, 253, 0.5);
+    border-radius: 5px;
+    padding: 0 75px 0 75px;
 }
 
 @media (max-width: 768px) {
@@ -106,4 +119,10 @@ body {
         justify-content: center;
         flex-wrap: wrap;
     }
+
+    #botao-sobre-jogos, #botao-sobre-computador {
+    background-color: rgba(227, 229, 253, 0.5);
+    border-radius: 5px;
+    padding: 0 40px 0 40px;
+}
 }
