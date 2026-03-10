@@ -39,6 +39,12 @@ body {
     flex-grow: 1;
 }
 
+.texto-principal {
+    font-size: 65px;
+    color: white;
+    margin: 10px 0;
+}
+
 @media (max-width: 768px) {
     .central {
         flex-direction: column;

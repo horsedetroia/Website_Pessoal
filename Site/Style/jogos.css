@@ -1,0 +1,21 @@
+.fileira {
+    flex-direction: column;
+}
+
+.bloco-jogo {
+    display: flex;
+    color: white;
+    gap: 15px;
+}
+
+.logos {
+    width: 170px;
+    border-radius: 10px;
+}
+
+@media (max-width: 700px) {
+    .bloco-jogo {
+        flex-direction: column;
+        align-items: center;
+    }
+}

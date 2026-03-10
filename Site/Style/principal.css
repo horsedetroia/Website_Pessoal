@@ -49,13 +49,6 @@
     border-radius: 20%;
 }
 
-
-.usuario {
-    font-size: 65px;
-    color: white;
-    margin: 10px 0;
-}
-
 #botao-sobre-jogos, #botao-sobre-computador {
     background-color: rgba(227, 229, 253, 0.5);
     border-radius: 5px;
