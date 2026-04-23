@@ -1,10 +1,9 @@
 .fileira {
-    flex-direction: column;
+    display: block;
 }
 
 .bloco-jogo {
     display: flex;
-    color: white;
     gap: 15px;
 }
 
