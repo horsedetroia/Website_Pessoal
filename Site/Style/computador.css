@@ -1,6 +1,45 @@
 .fileira {
+    display: block;
+    width: 100%; /* Garante que ocupe o espaço disponível */
+    max-width: 100%; /* Impede que ela cresça além do container .central */
+    box-sizing: border-box; /* Garante que o padding não aumente o tamanho */
+}
+
+.carousel {
+    display: flex;
+    width: 100%;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch; /* Melhora o scroll no celular */
+}
+
+.group {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: flex-start; /* Alinha ao início para permitir o scroll correto */
+    width: max-content; /* Faz o container interno ter o tamanho exato dos cards */
+}
+.peças-pc {
+    flex: 0 0 100px;
+    height: 150px;
+    padding: 30px;
+    background-color: rgb(127, 168, 255);
+    border-radius: 5%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.peças-pc img {
+    width: 100%;
+    height: auto;
 }
 
 @media (max-width: 700px) {
-
+    .fileira {
+        flex-direction: column;
+        align-items: center;
+    }
 }
